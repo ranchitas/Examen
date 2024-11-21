@@ -1,0 +1,37 @@
+Examen IA en redes
+
+- cuál fue el problema que resolvimos? el espacio fue dinámico, estático, o determinista? poqué? 1pto
+
+Se resolvió un problema de optimización discreta ya que las asignaciones están limitadas y el tipo de espacio es estatico ya que no hay cambios de los posibles elementos al ejecutar el algoritmo
+
+- cómo se representaron las posibles soluciones? 1pto
+
+Se representan como partículas dentro de un espacio, en el caso de la clase las partículas daban una posición basados en ciertos criterios
+
+- cómo se creó la población inicial? 1pto
+
+Se crea aleatoriamente, la partícula se crea dentro de un rango definido junto a una velocidad
+
+- cómo inicia la ejecución, se empieza evaluando o actualizando la posición de las partículas? 1pto
+
+Se empieza evaluando la función objetivo para cada posición de partícula, luego se asigna un valor fitness y la mejor posición global
+
+- qué es actualizar la posición y qué procedimiento realizamos? 2pto
+
+Actualiza la posición es que se mueve la partícula basado en la velocidad que tiene, se realizo el proceso de actualizar la partícula para ver como estas cambian de posición y dependiendo de la velocidad cada partícula tiene una nueva posición dependiendo de la velocidad
+
+- para qué sirve la función objetivo y qué hizo en nuestro laboratorio? 1pto
+
+Es la encargada de evaluar que tan buena es la posición actual de la partícula
+
+- cómo utilizamos la velocidad de las partículas en nuestro laboratorio? 
+
+Ya que las partículas tenían velocidades diferentes usamos estas para comparar y evaluar la best position y posición global en busca de la mejor posición 
+
+- indique si lo que hicimos es un algoritmo evolutivo, y porqué si o no. 1pto
+
+No, ya que los algoritmos evolutivos están basados en otras cosas que no son enjambres y al no tener generaciones que evolucionan no es un algoritmo evolutivo
+
+- qué tiene que ver lo que hicimos con un enjambre de aves? 1pto
+
+El PSO esta basado en los enjambres como aves debido a que estas mismas hacen lo mismo que las aves en sentido ajustar su dirección o buscar una mejor posición
