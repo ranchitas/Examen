@@ -2,7 +2,7 @@ Examen IA en redes
 
 - cuál fue el problema que resolvimos? el espacio fue dinámico, estático, o determinista? poqué? 1pto
 
-Se resolvió un problema de optimización discreta ya que las asignaciones están limitadas y el tipo de espacio es estatico ya que no hay cambios de los posibles elementos al ejecutar el algoritmo
+Se resolvió un problema de asignacion de recursos ya que se busca asignar contenedores a VM y el tipo de espacio es estatico ya que no hay cambios de los posibles elementos al ejecutar el algoritmo
 
 - cómo se representaron las posibles soluciones? 1pto
 
